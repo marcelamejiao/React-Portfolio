@@ -4,7 +4,6 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import Footer from './Footer';
 
 export default function PortfolioContainer() {
   // Store the current page in the state
@@ -28,7 +27,13 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
       {renderPage()}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
     </div>
   );
 }
