@@ -1,0 +1,9 @@
+.project {
+    height: 270px;
+}
+
+.project img {
+    object-fit: cover;
+    object-position: top;
+}
+
