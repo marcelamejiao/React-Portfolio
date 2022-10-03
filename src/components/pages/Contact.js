@@ -43,7 +43,7 @@ function Contact ({currentPage, handlePageChange}) {
     };
 
     return (
-        <div>
+        <div className="container">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             <h1>Contact</h1>
             <form>

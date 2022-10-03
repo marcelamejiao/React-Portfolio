@@ -4,7 +4,7 @@ import Header from '../Header';
 
 function Resume ({currentPage, handlePageChange}) {
     return (
-        <div>
+        <div className="container">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             <h1>Resume</h1>
 

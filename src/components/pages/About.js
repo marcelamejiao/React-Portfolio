@@ -4,7 +4,7 @@ import Header from '../Header';
 
 function About ({currentPage, handlePageChange}) {
     return (
-        <div>
+        <div className="container">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             <section>
                 <img src="https://marcelamejiao.github.io/Bootcamp-Portfolio/assets/images/Avatar.jpg" alt="Marcela Avatar" />
