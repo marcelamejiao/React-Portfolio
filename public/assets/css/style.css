@@ -1,5 +1,48 @@
+:root {
+    --color-background: #eee2df;
+    --color-nav: #e29578;
+    --color-links: #006d77;
+    --color-title: #edf6f9;
+    --color-headings: #83c5be;
+}
+
+html {
+    background-color: var(--color-background);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.header {
+    background-color: var(--color-nav);
+}
+
+.header h1 {
+    color: var(--color-title);
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--color-headings);
+    font-weight: 700;
+}
+
+.nav a {
+    color: var(--color-links);
+    font-weight: 700;
+}
+
+a {
+    color: var(--color-links);
+}
+
 .project {
     height: 270px;
+}
+
+.project img {
+    max-height: 115px;
 }
 
 .project img {
