@@ -65,6 +65,12 @@ function Contact ({currentPage, handlePageChange}) {
                 <p>
                     <input type="submit" value="Send" />
                 </p>
+                <p>
+                    Phone number: <a href='tel:+61450207624'>+61450207624</a>
+                </p>
+                <p>
+                    Email: <a href='mailto:marcelitamejia_24@hotmail.com'>marcelitamejia_24@hotmail.com</a>
+                </p>
             </form> 
 
             <Footer />
