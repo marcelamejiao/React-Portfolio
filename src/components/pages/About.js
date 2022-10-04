@@ -16,7 +16,7 @@ function About ({currentPage, handlePageChange}) {
                         alt="Marcela Avatar" 
                     />
                     
-                    <p className='col-12 col-sm-9 pl-md-4 pt-2 pt-md-0'>
+                    <p className='col-12 col-sm-9 pl-md-4 pt-4 pt-md-0'>
                         <strong className='d-block about-welcome mb-2 text-center w-100'>Hi! I am Marcela, welcome to my coding world!</strong>
 
                         Determined and productive Full Stack Web Developer with a passion for creative solutions.
