@@ -43,7 +43,7 @@ npm run start
 
 ## **Deployed link**
 
-💡 Live version: [click here!](https://marcelamejiao.github.io/react-portfolio)
+💡 Live version: [click here!](https://marcelamejiao.github.io/React-Portfolio/)
 
 ## **Questions**
 
