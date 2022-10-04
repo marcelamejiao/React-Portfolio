@@ -18,9 +18,8 @@ function About ({currentPage, handlePageChange}) {
 
                     
                     <p className='col-12 col-sm-9 pt-4'>
-                        
-                        <p className='about-welcome'>Hi! I am Marcela, welcome to my coding world!</p>
-                        
+                        <strong className='about-welcome mb-5'>Hi! I am Marcela, welcome to my coding world!</strong><br /><br />
+
                         Determined and productive Full Stack Web Developer with a passion for creative solutions.
                         I have strong organizational, math, planning and communication skills.
                         Dedicated to learn additional technologies and coding languages.
