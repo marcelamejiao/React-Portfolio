@@ -1,0 +1,99 @@
+:root {
+    --color-background: #eee2df;
+    --color-nav: #FFAC81; 
+    --color-links: #006d77;
+    --color-title: #edf6f9;
+    --color-headings: #83c5be;
+}
+
+html {
+    background-color: var(--color-background);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: var(--color-nav);
+}
+
+.header h1 {
+    color: var(--color-title);
+    font-family: 'Noto Sans Mono', monospace;
+    text-shadow: 2px 2px #5b5959
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--color-headings);
+    font-weight: 900;
+    text-shadow: 0.8px 0.8px #000000
+}
+
+.nav a {
+    color: var(--color-links);
+    font-weight: 700;
+}
+
+a {
+    color: var(--color-links);
+    text-shadow: 0.4px 0.4px --color-title;
+    font-weight: 700;
+}
+
+.project {
+    height: 270px;
+}
+
+.project img {
+    max-height: 115px;
+}
+
+.project img {
+    object-fit: cover;
+    object-position: top;
+}
+
+.about-page article img {
+    width: 80%;
+    background-color: var(--color-headings);
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.666), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-page article p  {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.about-welcome {
+    font-weight: 800;
+    font-size: larger;
+    font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
+    monospace;
+    text-shadow: 0.8px 0.8px #0000005b
+}
+
+.send-button:hover {
+    background-color: var(--color-headings);
+    font-weight: 500;
+}
+
+.resume-list li {
+    list-style-type: none;
+}
+  
+.resume-list li:before {
+content: '-';
+margin-right: 5px;
+font-size: 80%;
+background-color: var(--color-headings);
+color: var(--color-links);
+font-weight: bold;
+padding: 3px 8px;
+border-radius: 3px;
+}
