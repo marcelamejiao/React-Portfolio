@@ -47,6 +47,6 @@ npm run start
 
 ## **Questions**
 
-[GitHub](https://github.com/marcelamejiao)
+* Contact me on my GitHub profile:  [GitHub](https://github.com/marcelamejiao)
 
-If you have additional questions, please email me at: marcelitamejia_24@hotmail.com
+* If you have additional questions, please email me at: marcelitamejia_24@hotmail.com
