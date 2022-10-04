@@ -70,7 +70,7 @@ function Contact ({currentPage, handlePageChange}) {
                         {error}
                     </div>
                     <div className='row'>
-                        <input className='col-12' type="submit" value="Send" />
+                        <input className='col-12 send-button my-2 border-1' type="submit" value="Send" />
                     </div>
                     <div className='row'>
                         <p className='col-12'>Phone number: <a href='tel:+61450207624'>+61450207624</a></p>

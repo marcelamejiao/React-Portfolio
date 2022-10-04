@@ -9,24 +9,33 @@ function Resume ({currentPage, handlePageChange}) {
             <section className='container'>
                 <h1>Resume</h1>
 
-                <p>Download my <a href="/resume.docx" download>resume</a></p>
+                <p>Click to Download my <a href="/resume.docx" download>RESUME</a></p>
 
-                <ul>
+                <h3>My proficiencies</h3>
+                <ul className='resume-list'>
+                    <li>GitHub</li>
+                </ul>
+                <h4>Front End</h4>
+                <ul className='resume-list'>
                     <li>React.js</li>
+                    <li>Cascading Style Sheets (CSS)</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Moment.js</li>
+                    <li>HTML5</li>
+                </ul>
+                <h4>Back End</h4>
+                <ul className='resume-list'>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MySQLs</li>
+                    <li>Sequelize</li>
                     <li>Object-Oriented Programming (OOP)</li>
                     <li>MongoDB</li>
                     <li>Mongoose ODM</li>
-                    <li>Express.js</li>
-                    <li>Node.js</li>
-                    <li>MySQLs</li>
-                    <li>Sequelize</li>
-                    <li>JavaScript</li>
-                    <li>Cascading Style Sheets (CSS)</li>
-                    <li>jQuery</li>
-                    <li>HTML5</li>
-                    <li>Bootstrap</li>
-                    <li>Moment.js</li>
-                    <li>GitHub</li>
+                    <li>GraphQL</li>
+                    <li>RESTful API</li>
                 </ul>
             </section>
             <Footer />

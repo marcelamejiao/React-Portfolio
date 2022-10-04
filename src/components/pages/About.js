@@ -4,7 +4,7 @@ import Header from '../Header';
 
 function About ({currentPage, handlePageChange}) {
     return (
-        <div>
+        <div className='about-page'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             <section className='container'>
                 <h1>About me</h1>
@@ -16,12 +16,14 @@ function About ({currentPage, handlePageChange}) {
                         alt="Marcela Avatar" 
                     />
 
-                    <p className='col-12 col-sm-9'>
-                        Determined and productive web developer with a passion for creative solutions.
-                        Proficient in JavaScript, CSS and HTML.
+                    
+                    <p className='col-12 col-sm-9 pt-4'>
+                        
+                        <p className='about-welcome'>Hi! I am Marcela, welcome to my coding world!</p>
+                        
+                        Determined and productive Full Stack Web Developer with a passion for creative solutions.
                         I have strong organizational, math, planning and communication skills.
-                        Dedicated to learn additional technologies and coding languages,
-                        currently enrolled in a Coding Bootcamp with the University of Sydney.
+                        Dedicated to learn additional technologies and coding languages.
                         I have an excellent familiarity with Microsoft Office and Audio-Visual equipment.
                         Looking forward to learning more and expand my skills on Website and Mobile Apps design.
                     </p>
