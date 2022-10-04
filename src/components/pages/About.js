@@ -11,14 +11,13 @@ function About ({currentPage, handlePageChange}) {
                 
                 <article className='row d-flex align-items-start justify-content-center'>
                     <img 
-                        className='col-8 col-sm-3 mb-2 mb-sm-0'
+                        className='col-8 col-md-3 mb-2 mb-sm-0'
                         src="https://marcelamejiao.github.io/Bootcamp-Portfolio/assets/images/Avatar.jpg" 
                         alt="Marcela Avatar" 
                     />
-
                     
-                    <p className='col-12 col-sm-9 pt-4'>
-                        <strong className='about-welcome mb-5'>Hi! I am Marcela, welcome to my coding world!</strong><br /><br />
+                    <p className='col-12 col-sm-9 pl-md-4 pt-2 pt-md-0'>
+                        <strong className='d-block about-welcome mb-2 text-center w-100'>Hi! I am Marcela, welcome to my coding world!</strong>
 
                         Determined and productive Full Stack Web Developer with a passion for creative solutions.
                         I have strong organizational, math, planning and communication skills.
