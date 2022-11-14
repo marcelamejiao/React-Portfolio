@@ -12,10 +12,10 @@ function Portfolio ({currentPage, handlePageChange}) {
                 <div className="row box">
                     <div className="col-12 col-md-6 col-lg-4">
                     <Project
-                        title="Bootcamp Portfolio" 
-                        github="https://github.com/marcelamejiao/Bootcamp-Portfolio" 
-                        deployedLink="https://marcelamejiao.github.io/Bootcamp-Portfolio/"
-                        image={process.env.PUBLIC_URL + "/assets/images/bootcamp-portfolio.png"}
+                        title="WhatSupplier" 
+                        github="https://github.com/marcelamejiao/Whatsupplier" 
+                        deployedLink="https://pacific-eyrie-89975.herokuapp.com"
+                        image={process.env.PUBLIC_URL + "/assets/images/WhatSupplierPage.png"}
                     />
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
